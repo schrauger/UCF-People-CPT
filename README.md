@@ -33,6 +33,9 @@ If you add this snippet to your theme, you'll need to flush permalink settings f
 
 ## Changelog ##
 
+### 1.0.4 ###
+* Modifies permalink structure to make urls top level. Changes the url of person post types, removing '/blog/' or other directory as defined in the WordPress permalink structure. **You should flush permalinks on your site after upgrading to v1.0.1; see [upgrade notices below](#upgrade-notice)**
+
 ### 1.0.3 ###
 * Auto-generated archives for the Person post type have been disabled.  **You should flush permalinks on your site after upgrading to v1.0.3; see [upgrade notices below](#upgrade-notice)**
 
@@ -47,6 +50,10 @@ If you add this snippet to your theme, you'll need to flush permalink settings f
 
 
 ## Upgrade Notice ##
+
+### 1.0.4 ###
+Upon upgrading to version 1.0.4, you should flush your site's permalink settings manually (Setting > Permalinks; click "Save Changes"--you don't have to adjust any settings).
+
 
 ### 1.0.3 ###
 Upon upgrading to version 1.0.3, you should flush your site's permalink settings manually (Setting > Permalinks; click "Save Changes"--you don't have to adjust any settings).
